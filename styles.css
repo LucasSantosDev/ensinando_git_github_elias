@@ -16,8 +16,14 @@ body {
 	height: 70px;
 
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+}
+#menu-topo .logo {
+	padding-left: 20px;
+}
+#menu-topo .logo img {
+	width: 30%;
 }
 #menu-topo ul {
 	display: flex;
@@ -60,7 +66,31 @@ body {
 
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;
+}
+#menu-lateral ul {
+	width: 100%;
+}
+#menu-lateral ul li:first-of-type {
+	border-top-width: 0;
+}
+#menu-lateral ul li {
+	padding: 10px;
+	border: 1px solid #666;
+	border-right-width: 0;
+	border-left-width: 0;
+	border-top-width: 0;
+	display: flex;
+	justify-content: center;
 	align-items: center;
+
+	height: 30px;
+}
+#menu-lateral ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFF;
+	width: 70%;
 }
 
 #conteudo-central {
@@ -70,4 +100,20 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+#footer {
+	background-color: #333;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #FFF;
+	height: 80px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 13px;
+	padding: 0 20px;
+}
+
+#footer img {
+	width: 200px;
 }
