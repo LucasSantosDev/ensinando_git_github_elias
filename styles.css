@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial;
+}
+
+#menu-topo {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	background: #333;
+	height: 70px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#menu-topo ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#menu-topo ul li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 10px 25px;
+}
+#menu-topo ul li a {
+	text-decoration: none;
+	color: #FFF;
+	text-transform: uppercase;
+	height: 70px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+	display: flex;
+	align-items: center;
+}
+#menu-topo ul li a:hover {
+	background: #FFF;
+	color: #000;
+}
+
+.content {
+	display: flex;
+
+	background: gray;
+	min-height: 700px;
+}
+
+#menu-lateral {
+	background: #adadad;
+	width: 20%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#conteudo-central {
+	background: #FFF;
+	width: 80%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
