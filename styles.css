@@ -40,13 +40,15 @@ body {
 #menu-topo ul li a {
 	text-decoration: none;
 	color: #FFF;
-	text-transform: uppercase;
 	height: 70px;
 	padding-right: 15px;
 	padding-left: 15px;
 
 	display: flex;
 	align-items: center;
+}
+#menu-topo ul li a i {
+	padding-right: 8px;
 }
 #menu-topo ul li a:hover {
 	background: #FFF;
@@ -63,6 +65,9 @@ body {
 #menu-lateral {
 	background: #adadad;
 	width: 20%;
+	border-right-width: 10px;
+	border-right-style: solid;
+	border-right-color: #333;
 
 	display: flex;
 	justify-content: center;
@@ -75,6 +80,7 @@ body {
 	border-top-width: 0;
 }
 #menu-lateral ul li {
+	font-family: 'Nunito Sans', sans-serif;
 	padding: 10px;
 	border: 1px solid #666;
 	border-right-width: 0;
@@ -91,6 +97,13 @@ body {
 	text-decoration: none;
 	color: #FFF;
 	width: 70%;
+}
+#menu-lateral ul li:hover {
+	background: #333;
+	transition: 0.6s;
+}
+#menu-lateral ul li a i {
+	padding-right: 8px;
 }
 
 #conteudo-central {
@@ -112,8 +125,4 @@ body {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 13px;
 	padding: 0 20px;
-}
-
-#footer img {
-	width: 200px;
 }
